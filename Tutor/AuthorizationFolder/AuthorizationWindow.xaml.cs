@@ -10,19 +10,22 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Tutor.Authorization.ViewModel;
 
 namespace Tutor
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AuthorizationWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AuthorizationWindow : Window
     {
-        public MainWindow()
+        AuthorizationViewModel model;
+        public AuthorizationWindow()
         {
             InitializeComponent();
+            model = new AuthorizationViewModel();
+            this.DataContext = model;
         }
     }
 }
