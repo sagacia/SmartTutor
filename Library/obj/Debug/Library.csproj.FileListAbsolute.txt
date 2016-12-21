@@ -1,0 +1,5 @@
+D:\LavrovTeamProject\Clone1\Library\bin\Debug\Library.dll
+D:\LavrovTeamProject\Clone1\Library\bin\Debug\Library.pdb
+D:\LavrovTeamProject\Clone1\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+D:\LavrovTeamProject\Clone1\Library\obj\Debug\Library.dll
+D:\LavrovTeamProject\Clone1\Library\obj\Debug\Library.pdb

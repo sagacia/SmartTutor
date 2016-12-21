@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tutor"
         mc:Ignorable="d"
-        Title="NatureWindow" Height="300" Width="300">
+        Title="NatureWindow" Height="300" Width="459">
     <Grid>
-        
+        <Label x:Name="label" Content="Country" HorizontalAlignment="Left" Margin="38,19,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Capital" HorizontalAlignment="Left" Margin="148,19,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Region" HorizontalAlignment="Left" Margin="260,19,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Flag" HorizontalAlignment="Left" Margin="375,20,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.75,0.577"/>
+        <ComboBox x:Name="cbCountry" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="100"/>
+        <ComboBox x:Name="cbCapital" HorizontalAlignment="Left" Margin="120,50,0,0" VerticalAlignment="Top" Width="100"/>
+        <ComboBox x:Name="cbRegion" HorizontalAlignment="Left" Margin="230,50,0,0" VerticalAlignment="Top" Width="100"/>
+        <ComboBox x:Name="cbFlag" HorizontalAlignment="Left" Margin="340,50,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>

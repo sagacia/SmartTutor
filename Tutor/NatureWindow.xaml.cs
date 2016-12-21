@@ -22,6 +22,24 @@ namespace Tutor
         public NatureWindow()
         {
             InitializeComponent();
+            RegionsInit();
         }
+        public void RegionsInit()
+        {
+            cbRegion.Items.Add("Europe");
+            cbRegion.Items.Add("Asia");
+            cbRegion.Items.Add("Africa");
+            cbRegion.Items.Add("North America");
+            cbRegion.Items.Add("South America");
+            cbRegion.Items.Add("Australia");
+        }
+
+        public void CountriesInit()
+        {
+            cbCountry.Items.Add("Great Britain");
+            cbCountry.Items.Add("France");
+            cbCountry.Items.Add("Ukraine");
+        }
+
     }
 }
